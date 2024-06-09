@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AOL"
+version = "0.0.1"
+authors = [
+  { name="Pheonix Studios", email="pheonix.community.mail@gmail.com" },
+  { name="Akshobhya Sasun", email="akshobhyasasun@gmail.com" },
+  { name="Aarav Nayak", email="legoheroaarav@gmail.com" }
+]
+description = "AOL (Assembly Oriented Language) by Phoenix Studios simplifies assembly programming, merging ASM, C, Python, and C# syntax for intuitive OS development. Available as a Python module and a full-featured executable."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "PheonixAppAPI"
+]
+
+[project.urls]
+Homepage = "https://github.com/AkshuDev/PheonixAppAPI"
+Issues = "https://github.com/AkshuDev/PheonixAppAPI/issues"
